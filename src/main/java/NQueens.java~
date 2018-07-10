@@ -1,0 +1,12 @@
+
+public class NQueens {
+    public boolean placeRow(int r, int n, Board board) {
+	return true;
+    }
+    public boolean placeColumn(int r, int c, int n, Board board) {
+	return false;
+    }
+    public boolan positionOK(int r, int c, int n, Board board) {
+	return false;
+    }
+}
